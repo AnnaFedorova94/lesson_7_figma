@@ -8,50 +8,102 @@ body {
 .wrapper {
    min-height: 100%;
    overflow: hidden;
-   max-width: 400px;
+   max-width: 810px;
    margin: 0 auto;
 }
 
-.header {
-   line-height: 8px;
-   max-width: 300px;
-   margin-bottom: 40px;
-}
-h3 {
-   font-weight: bold;
-   font-size: 16px;
-   line-height: 150%;
-   text-transform: uppercase;
-   color: #1E212C;
-}
 h1 {
+   font-style: normal;
    font-weight: 900;
    font-size: 46px;
-   line-height: 130%;
+   line-height: 1.3;
    color: #1E212C;
+   text-align: left;
 }
-.block-list {
-   max-width: 390px;
-   margin-bottom: 50px;
-}
-.item-list {
-   background: url(../img/check.png) 0 5px no-repeat;
-   padding-left: 30px;
-   margin-bottom: 12px ;
-}
-.list {
-   color:  #424551;
-   line-height: 1.6;
-   font-size: 16px;
+.title {
+   margin: 0 0 25px 0;
 }
 
-.link-button {
-   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-   border-radius: 4px;
+.calendar {
    display: inline-block;
-   align-items: center;
-   color: #FFFFFF;
-   letter-spacing: 0.5px;
-   font-size: 14px;
-   padding: 15px 32px;
+   background: url(../img/icon/Stroke.png) 0 50% no-repeat;
+   padding: 0 25px;
+}
+.time {
+   display: inline-block;
+   background: url(../img/icon/Union.png) 0 50% no-repeat;
+   padding: 0 25px;
+}
+
+.data {
+   margin-bottom: 40px;
+   font-size: 16px;
+   line-height: 160%;
+   color: #787A80;
+}
+
+.img {
+   margin: 0 0 60px 0;
+}
+
+.text {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.5;
+
+   color: #1E212C;
+   margin-bottom: 25px;
+}
+
+.paragraph-text {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.6;
+   margin-bottom: 50px;
+   color: #424551;
+}
+.text-1 {
+   padding-bottom: 30px;
+}
+
+.block {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 50px ;
+}
+.block-text {
+   color: #1E212C;
+   background: url(../img/icon/braces.png) 0 0 no-repeat ;
+   padding-left: 50px ;
+}
+
+.item-list {
+   background: url(../img/icon/check.png) 0 5px no-repeat;
+   padding-left: 35px ;
+   margin-bottom: 4px;
+   
+}
+
+h2 {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+   padding-bottom: 25px;
+}
+
+.text-list {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+}
+.list {
+   margin-bottom: 25px;
 }
